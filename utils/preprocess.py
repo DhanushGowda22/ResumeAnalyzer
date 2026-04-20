@@ -18,3 +18,12 @@ def preprocess_text(text):
     tokens = [token.lemma_ for token in doc if not token.is_stop]
     
     return " ".join(tokens)
+
+def extract_skills(text, skills_list):
+    found_skills = []
+
+    for skill in skills_list:
+        if skill in text:
+            found_skills.append(skill)
+
+    return list(set(found_skills))

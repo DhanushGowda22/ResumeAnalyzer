@@ -1,0 +1,12 @@
+python
+machine learning
+deep learning
+nlp
+data science
+scikit learn
+tensorflow
+keras
+fastapi
+sql
+pandas
+numpy
