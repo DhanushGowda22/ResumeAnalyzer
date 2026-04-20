@@ -9,4 +9,5 @@ keras
 fastapi
 sql
 pandas
+
 numpy
