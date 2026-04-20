@@ -6,6 +6,7 @@ from utils.similarity import compute_similarity
 with open("data/skills.txt") as f:
     skills_list = f.read().splitlines()
 
+
 file_path = "sample_resume.pdf"
 
 # Resume
