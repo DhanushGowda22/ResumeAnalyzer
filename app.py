@@ -50,19 +50,19 @@ if uploaded_file and jd:
 
     st.subheader(" Results")
 
-    st.subheader(f"🧠 Text Similarity Score: {score:.2f}%")
-    st.subheader(f"🎯 Skill Match Score: {skill_score:.2f}%")
+    st.subheader(f"Text Similarity Score: {score:.2f}%")
+    st.subheader(f"Skill Match Score: {skill_score:.2f}%")
 
     # Progress bar for skill match
     st.progress(int(skill_score))
 
     st.markdown("---")
 
-    st.write("✅ **Resume Skills:**")
+    st.write("**Resume Skills:**")
     st.write(resume_skills)
 
-    st.write("📌 **JD Skills:**")
+    st.write("**JD Skills:**")
     st.write(jd_skills)
 
-    st.write("❌ **Missing Skills:**")
+    st.write("**Missing Skills:**")
     st.write(missing)
