@@ -26,10 +26,10 @@ st.set_page_config(page_title="Resume Scanner", layout="centered")
 
 st.title("📄 AI-Powered Resume Analyzer (ATS Scoring System)")
 
-# Upload resume
+# Upload_resume
 uploaded_file = st.file_uploader("Upload Resume (PDF)", type=["pdf"])
 
-# Job description input
+# Job_description input
 jd = st.text_area("Paste Job Description")
 
 if uploaded_file and jd:
