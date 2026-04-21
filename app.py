@@ -46,11 +46,11 @@ if uploaded_file and jd:
     # Similarity_score
     score = compute_similarity(resume_clean, jd_clean)
 
-    # Extract skills
+    # Extract_skills
     resume_skills = extract_skills(resume_clean, skills_list)
     jd_skills = extract_skills(jd_clean, skills_list)
 
-    # Missing skills
+    # Missing_skills
     missing = list(set(jd_skills) - set(resume_skills))
 
     # Skill match score
