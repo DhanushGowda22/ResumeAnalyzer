@@ -29,7 +29,7 @@ st.title("📄 AI-Powered Resume Analyzer (ATS Scoring System)")
 # Upload_resume
 uploaded_file = st.file_uploader("Upload Resume (PDF)", type=["pdf"])
 
-# Job_description input
+# Job_description_input
 jd = st.text_area("Paste Job Description")
 
 if uploaded_file and jd:
