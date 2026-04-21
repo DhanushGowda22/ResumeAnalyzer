@@ -43,7 +43,7 @@ if uploaded_file and jd:
     resume_clean = preprocess_text(resume_text)
     jd_clean = preprocess_text(jd)
 
-    # Similarity score
+    # Similarity_score
     score = compute_similarity(resume_clean, jd_clean)
 
     # Extract skills
