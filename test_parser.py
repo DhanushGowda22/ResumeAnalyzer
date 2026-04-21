@@ -12,7 +12,7 @@ file_path = "sample_resume.pdf"
 resume_text = extract_resume_text(file_path)
 resume_clean = preprocess_text(resume_text)
 
-# Job Description
+# Job_Description
 jd = """
 Looking for a Machine Learning Engineer with experience in Python, 
 Deep Learning, NLP, and Scikit-learn. 
