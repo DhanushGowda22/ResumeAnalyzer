@@ -2,7 +2,7 @@ from utils.parser import extract_resume_text
 from utils.preprocess import preprocess_text, extract_skills
 from utils.similarity import compute_similarity
 
-# Load skills
+# Load_skills
 with open("data/skills.txt") as f:
     skills_list = f.read().splitlines()
 
