@@ -48,7 +48,7 @@ if uploaded_file and jd:
 
     # ===== DISPLAY RESULTS =====
 
-    st.subheader("📊 Results")
+    st.subheader(" Results")
 
     st.subheader(f"🧠 Text Similarity Score: {score:.2f}%")
     st.subheader(f"🎯 Skill Match Score: {skill_score:.2f}%")
