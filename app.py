@@ -18,7 +18,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Load skills
+# Load_skills
 with open("data/skills.txt") as f:
     skills_list = f.read().splitlines()
 
